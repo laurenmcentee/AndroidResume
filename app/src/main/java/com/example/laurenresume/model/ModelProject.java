@@ -5,7 +5,7 @@ public class ModelProject {
     public String projectName;
     public String projectType;
     public String projectDescription;
-    public String projectImgePath;
+    public String projectImagePath;
     public String projectLandingPage;
 
     public String getProjectName() {
@@ -33,11 +33,11 @@ public class ModelProject {
     }
 
     public String getProjectImgePath() {
-        return projectImgePath;
+        return projectImagePath;
     }
 
     public void setProjectImgePath(String projectImgePath) {
-        this.projectImgePath = projectImgePath;
+        this.projectImagePath = projectImgePath;
     }
 
     public String getProjectLandingPage() {
